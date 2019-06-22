@@ -8,6 +8,8 @@ class Pokemon
         type TEXT
       )
     SQL
+    
+    DB[:conn].execute(sql)
   end
   
 end
