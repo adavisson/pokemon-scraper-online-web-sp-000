@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS pokemon (
         type TEXT
       );
       
-ALTER TABLE pokemon 
+ALTER TABLE pokemon ADD COLUMN hp DEFAULT
