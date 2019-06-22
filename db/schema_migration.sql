@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS pokemon (
         type TEXT
       );
       
-ALTER 
+ALTER TABLE pokemon 
